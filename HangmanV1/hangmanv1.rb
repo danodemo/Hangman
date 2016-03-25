@@ -10,7 +10,8 @@ word_list = [
 MAX_TURNS = 7
 answer = word_list.sample
 
-def greeting(player1, player2)
+def greeting(p1, p2)
+  pry
   puts
   puts
   puts "Welcome, adventurers!"
@@ -168,6 +169,7 @@ def hangman(answer)
       guesses = guess1
     end
   end
+end
   postmortem(answer, guesses)
 end
 
